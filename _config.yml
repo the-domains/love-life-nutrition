@@ -1,28 +1,40 @@
-name: LOVE LIFE NUTRITION
-favicon: null
-layout_spectrum: 0.36054605012759566
-typography_spectrum: 0.05076
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
-  brandStrength: 0.5943664917722344
-  lightness: 0.5070176189765334
-  saturation: 0.44174466095864773
-  rhythmicContrast: 0.7467302249278873
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.4417446609586477
+  brandStrength: 0.8028674
+  lightness: 0.5070176189765334
+  brandColors:
+    - '#181818'
+    - '#756B6A'
+    - '#FAC222'
+    - '#47D696'
+    - '#D094EB'
+  rhythmicContrast: 0.7467302249278873
+typography_spectrum: 0.1415771
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+favicon: null
+name: LOVE LIFE NUTRITION
